@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUI Web3 Wallet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>SUI Web3</h1>
+    <button id="connectBtn">Connect Wallet</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Next-Gen Web3 on SUI</h2>
+      <p>Fast • Secure • Scalable blockchain experience</p>
+    </section>
+
+    <section class="card">
+      <h3>Wallet Status</h3>
+      <p id="status">Not connected</p>
+    </section>
+                                          <div class="card" id="balanceCard" style="display:none;">
+  <h3>Wallet Balance</h3>
+  <p id="balance" class="highlight">0 SUI</p>
+</div>
+
+<div class="card">
+  <h3>Network</h3>
+  <select id="networkSelect">
+    <option value="devnet">Devnet</option>
+    <option value="testnet">Testnet</option>
+    <option value="mainnet">Mainnet</option>
+  </select>
+</div>                                     
+    <section class="card">
+      <h3>About Project</h3>
+      <p>
+        This is a frontend Web3 project built with HTML, CSS and JavaScript.
+        Wallet logic is prepared for future SUI SDK integration.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Horlax Crypt</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
